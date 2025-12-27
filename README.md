@@ -18,20 +18,17 @@ automatically removes unverified users after a timeout.
 
 ---
 
-## ⚠️ Requirements
+## ℹ️ Group Type Behavior
 
-### Telegram Supergroup (Important)
+Telegram has different capabilities for normal groups and supergroups.
+This bot automatically detects the group type and adjusts its behavior.
 
-Telegram only allows user restrictions in **supergroups**.
+- ✅ **Supergroup** → Full gatekeeper protection (verification, timeout, cleanup)
+- ⚠️ **Normal group** → Limited mode (no user restrictions)
 
-- ✅ Supergroup → Full gatekeeper protection
-- ⚠️ Normal group → Limited mode (no restrictions)
-
-To convert a group into a supergroup:
+To enable full protection, convert your group into a supergroup:
 - Make the group public (set a username), or
-- Let Telegram auto-upgrade it
-
----
+- Let Telegram auto-upgrade it automatically
 
 ## 🚀 Deploy on Railway
 
