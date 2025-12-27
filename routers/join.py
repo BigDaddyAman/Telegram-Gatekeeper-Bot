@@ -58,7 +58,8 @@ async def on_chat_member_update(event: ChatMemberUpdated):
             chat_id,
             (
                 f"👋 Welcome {user.mention_html()}!\n\n"
-                f"Click the **{correct}** emoji to verify you're human."
+                f"To continue, please tap the {correct} emoji below.\n"
+                f"This helps keep spam out 🤖🚫"
             ),
             reply_markup=kb,
             parse_mode="HTML",
@@ -74,7 +75,6 @@ async def on_chat_member_update(event: ChatMemberUpdated):
         )
 
         logging.info(f"Verification timeout started for {user.id}")
-
 
 async def verification_timeout(bot, chat_id: int, user_id: int, timeout: int = 60):
     await asyncio.sleep(timeout)
