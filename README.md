@@ -3,7 +3,7 @@
 A Telegram bot that verifies new users when they join a group and
 automatically removes unverified users after a timeout.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kbVNI2?referralCode=nIQTyp&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telegram-gatekeeper-bot?referralCode=nIQTyp&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ---
 
@@ -34,7 +34,7 @@ To enable full protection, convert your group into a supergroup:
 
 Click the button below to deploy instantly:
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/kbVNI2?referralCode=nIQTyp&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/telegram-gatekeeper-bot?referralCode=nIQTyp&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ### Required Environment Variables
 
